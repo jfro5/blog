@@ -62,8 +62,8 @@
             <state vertical-scroll-proportion="0.0" vertical-offset="8811" max-vertical-offset="11460">
               <caret line="605" column="12" selection-start-line="605" selection-start-column="12" selection-end-line="605" selection-end-column="12" />
               <folding>
-                <marker date="1398009970000" expanded="true" signature="59:44271" placeholder="..." />
-                <marker date="1398009970000" expanded="true" signature="44172:44260" placeholder="..." />
+                <marker date="1398009987000" expanded="true" signature="59:44271" placeholder="..." />
+                <marker date="1398009987000" expanded="true" signature="44172:44260" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -569,7 +569,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="663" y="22" width="1045" height="950" extended-state="0" />
+    <frame x="663" y="22" width="1045" height="950" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -643,8 +643,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="8811" max-vertical-offset="11460">
           <caret line="605" column="12" selection-start-line="605" selection-start-column="12" selection-end-line="605" selection-end-column="12" />
           <folding>
-            <marker date="1398009970000" expanded="true" signature="59:44271" placeholder="..." />
-            <marker date="1398009970000" expanded="true" signature="44172:44260" placeholder="..." />
+            <marker date="1398009987000" expanded="true" signature="59:44271" placeholder="..." />
+            <marker date="1398009987000" expanded="true" signature="44172:44260" placeholder="..." />
           </folding>
         </state>
       </provider>
