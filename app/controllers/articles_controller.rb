@@ -1,7 +1,5 @@
 class ArticlesController < ApplicationController
-    http_basic_authenticate_with name: "jf", password: "pass", except: [:index, :show]
-
-
+  http_basic_authenticate_with name: "jf", password: "pass", except: [:index, :show]
 
   def index
     @articles = Article.all
@@ -24,6 +22,7 @@ class ArticlesController < ApplicationController
       render 'edit'
       end
   end
+
   def destroy
       @article = Article.find(params[:id])
       @article.destroy
