@@ -39,6 +39,5 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem 'pg'
-gem 'rails_12factor', group: :production
-
+gem 'rails_12factor'
 ruby '2.1.1'
