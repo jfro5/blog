@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JF Blog</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <script src='//web-toolkit.global.sky.com/2.2.11/scripts/toolkit.min.js'></script>
+  <link rel="stylesheet" href="//web-toolkit.global.sky.com/2.2.11/stylesheets/toolkit.css"/>
+  <link rel="stylesheet" href="//web-toolkit.global.sky.com/2.2.11/fonts/skycons.css"/>
+</head>
+<body class="grid-1140">
+    <div class="skycom-container clearfix">
+      <div class="alpha skycom-12">
+<%= yield %>
+      </div>
+    </div>
+</body>
+</html>
