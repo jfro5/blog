@@ -1,26 +1,26 @@
-<%= form_for @article do |f| %>
+<%= link_to '< Back', root_path %>
+<%= form_for @article, :html => {:class => "sky-form sky-well"} do |f| %>
     <% if @article.errors.any? %>
         <div id="error_explanation">
-          <h2><%= pluralize(@article.errors.count, "error") %> prohibited
-            this article from being saved:</h2>
-          <ul>
-            <% @article.errors.full_messages.each do |msg| %>
-                <li><%= msg %></li>
+          <p class="error"> Please address the <strong><%= pluralize(@article.errors.count, "error") %></strong>:</p>
+
+          <% @article.errors.full_messages.each do |msg| %>
+             <li class="error"><%= msg %></li>
             <% end %>
-          </ul>
+          <br>
         </div>
     <% end %>
-    <p>
-      <%= f.label :title %><br>
+    <div class="row">
+      <%= f.label :title %>
       <%= f.text_field :title %>
-    </p>
+    </div>
 
-    <p>
-      <%= f.label :text %><br>
+    <div class="row">
+      <%= f.label :text %>
       <%= f.text_area :text %>
-    </p>
+    </div>
 
-    <p>
+    <div class="row no-label">
       <button type="submit" class="btn primary">Submit</button>
-    </p>
+    </div>
 <% end %>
